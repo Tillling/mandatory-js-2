@@ -90,7 +90,7 @@ function didAnyoneWin(myArray) {
     else if (myArray[3] === myArray[4] && myArray[4] === myArray[5] && myArray[4] !== null) { return myArray[3]; }
     else if (myArray[6] === myArray[7] && myArray[7] === myArray[8] && myArray[6] !== null) { return myArray[6]; }
 
-    else if (myArray[0] === myArray[3] && myArray[3] === myArray[4] && myArray[0] !== null) { return myArray[0]; }
+    else if (myArray[0] === myArray[3] && myArray[3] === myArray[6] && myArray[0] !== null) { return myArray[0]; }
     else if (myArray[1] === myArray[4] && myArray[4] === myArray[7] && myArray[1] !== null) { return myArray[1]; }
     else if (myArray[2] === myArray[5] && myArray[5] === myArray[8] && myArray[2] !== null) { return myArray[2]; }
 
